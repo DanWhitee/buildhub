@@ -6,4 +6,5 @@ export default defineNuxtConfig({
     autoImport: false,
     dirs: [],
   },
+  modules: ['@nuxtjs/tailwindcss'],
 })
