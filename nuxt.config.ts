@@ -6,5 +6,8 @@ export default defineNuxtConfig({
     autoImport: false,
     dirs: [],
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@vueuse/nuxt'],
+  shadcn: {
+    prefix: 'U',
+  },
 })
