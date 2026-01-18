@@ -6,7 +6,12 @@ export default defineNuxtConfig({
     autoImport: false,
     dirs: [],
   },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt', '@vueuse/nuxt'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'shadcn-nuxt',
+    '@vueuse/nuxt',
+    '@nuxtjs/color-mode',
+  ],
   shadcn: {
     prefix: 'U',
   },
